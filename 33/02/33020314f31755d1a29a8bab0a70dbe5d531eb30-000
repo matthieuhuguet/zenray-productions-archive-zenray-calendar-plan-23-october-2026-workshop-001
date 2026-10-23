@@ -1,23 +1,23 @@
 {
   "title": "ZenRay Calendar Plan",
   "eyebrow": "Organisation des journées",
-  "date": "23 October 2026",
+  "date": "24 October 2026",
   "subtitle": "zenray-calendar-plan",
-  "status": "Version du 23 October 2026, générée depuis SKILL.md",
+  "status": "Version du 24 October 2026, générée depuis SKILL.md",
   "lead": "Skill qui place les tâches d’une journée dans ZenRay Plan et Google Calendar, en blocs de 15 minutes, repas compris, sans deux événements à la même heure. Cet article est généré depuis le skill à chaque consignation.",
   "hero": "hero",
   "heroAlt": "Frise horaire du 24 October 2026 lue dans le Plan.",
   "heroText": "Une journée réelle, relue dans le Plan et dans Google Calendar.",
   "heroCaption": "Rendu par Scripts/MakeHero.mjs depuis CalendarPlan.mjs check.",
   "sources": "Sources.json",
-  "footer": "ZenRay Calendar Plan · 23 October 2026 · SKILL.md 0fe151698257",
+  "footer": "ZenRay Calendar Plan · 24 October 2026 · SKILL.md ce55328c28fe",
   "fileLabels": {
     "hero": "Frise horaire du 24 October 2026 lue dans le Plan."
   },
   "fileRoles": {
     "hero": "Image d’ouverture."
   },
-  "skillSha256": "0fe151698257eee0c0357fa07843fb36ffcea1dee1a6ef50a270136d95091eca",
+  "skillSha256": "ce55328c28fe18738236c31202624b01f11fc250602b3be5b94070313f30a157",
   "sections": [
     {
       "id": "s01",
@@ -80,7 +80,7 @@
       "eyebrow": "09 / L'article Assets suit le skill, toujours",
       "title": "L'article Assets suit le skill, toujours (23 October 2026)",
       "nav": "L'article Assets suit le skill, toujours",
-      "html": "<ul><li>Mots de Matthieu (23 October 2026) : « l'article, c'est aussi une source de vérité, tout comme le skill » ; « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». L'article V1 était écrit à la main une seule fois et disait encore « déjeuner jamais écrit » après la correction. (23 October 2026)</li><li>Correction de conception (23 October 2026) : l'article n'a plus de texte propre, il est GÉNÉRÉ depuis ce SKILL.md par <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs</code>, réglé par <code style=\"overflow-wrap:anywhere\">ARTICLE.json</code> de ce skill (projet, titre, image d'ouverture refaite par <code style=\"overflow-wrap:anywhere\">Scripts/MakeHero.mjs</code>). <code style=\"overflow-wrap:anywhere\">sync-skill.sh</code> l'appelle à chaque consignation : article rendu, contrôlé (pas de tiret long, pas de débordement desktop ni mobile), publié dans Assets, envoyé au cloud ; un échec sort en code 3 avec « ARTICLE NOT REFRESHED ». (23 October 2026)</li><li>Contrôle (23 October 2026) : <code style=\"overflow-wrap:anywhere\">node /Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs zenray-calendar-plan --check</code> sort 0 seulement si l'article correspond au SKILL.md actuel ET que son envoi cloud est <code style=\"overflow-wrap:anywhere\">done</code>. On modifie le SKILL.md, jamais l'article. (23 October 2026)</li></ul>"
+      "html": "<ul><li>Mots de Matthieu (23 October 2026) : « l'article, c'est aussi une source de vérité, tout comme le skill » ; « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». L'article V1 était écrit à la main une seule fois et disait encore « déjeuner jamais écrit » après la correction. (23 October 2026)</li><li>Correction de conception (23 October 2026) : l'article n'a plus de texte propre, il est GÉNÉRÉ depuis ce SKILL.md par <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs</code>, réglé par <code style=\"overflow-wrap:anywhere\">ARTICLE.json</code> de ce skill (projet, titre, image d'ouverture refaite par <code style=\"overflow-wrap:anywhere\">Scripts/MakeHero.mjs</code>). <code style=\"overflow-wrap:anywhere\">sync-skill.sh</code> l'appelle à chaque consignation : article rendu, contrôlé (pas de tiret long, pas de débordement desktop ni mobile), publié dans Assets, envoyé au cloud ; un échec sort en code 3 avec « ARTICLE NOT REFRESHED ». (23 October 2026)</li><li>Contrôle (23 October 2026) : <code style=\"overflow-wrap:anywhere\">node /Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs zenray-calendar-plan --check</code> sort 0 seulement si l'article correspond au SKILL.md actuel ET que son envoi cloud est <code style=\"overflow-wrap:anywhere\">done</code>. On modifie le SKILL.md, jamais l'article. (23 October 2026)</li></ul><ul><li>24 October 2026 : le principe est généralisé à tous les articles Assets (Registry.json, refresh-articles.mjs, LaunchAgent com.zenray.articles-refresh) ; détail dans le skill zenray-assets, section du 24 October 2026. (24 October 2026)</li></ul>"
     }
   ]
 }
