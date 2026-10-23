@@ -1,0 +1,5 @@
+{ "date": "2026-10-24", "tasks": [
+  { "match": "prospection + contacts", "drop": true },
+  { "match": "10 mails par jour", "fixed": true },
+  { "match": "Sport", "fixed": true }
+] }

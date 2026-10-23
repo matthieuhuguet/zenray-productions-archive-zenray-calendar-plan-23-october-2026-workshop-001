@@ -1,0 +1,6 @@
+{ "date": "2026-10-24", "tasks": [
+  { "match": "Nibir Khan", "drop": true },
+  { "match": "10 mails par jour", "workMin": 60 },
+  { "match": "prospection + contacts", "workMin": 60 },
+  { "match": "Sport", "fixed": true }
+] }
