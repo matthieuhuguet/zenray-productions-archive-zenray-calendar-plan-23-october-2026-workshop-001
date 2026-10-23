@@ -1,0 +1,5 @@
+{ "date": "2026-10-24", "breaks": [], "tasks": [
+  { "title": "Déjeuner", "at": "13:10", "durationMin": 50 },
+  { "title": "Temps libre", "at": "15:35", "durationMin": 225 },
+  { "title": "Dîner", "at": "19:30", "durationMin": 60 }
+] }

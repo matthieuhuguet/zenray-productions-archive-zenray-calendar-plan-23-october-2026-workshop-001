@@ -1,0 +1,8 @@
+{ "date": "2026-10-24",
+  "breaks": [{ "title": "Retour et déjeuner", "start": "13:10", "end": "14:00" }],
+  "tasks": [
+  { "match": "10 mails par jour", "fixed": true },
+  { "title": "Louisiana Bayou", "at": "10:25", "durationMin": 95 },
+  { "match": "Sport", "at": "12:00", "durationMin": 60 },
+  { "title": "Japonais", "workMin": 60, "after": "14:00" }
+] }
