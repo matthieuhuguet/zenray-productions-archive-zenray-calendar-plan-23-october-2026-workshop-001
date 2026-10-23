@@ -1,0 +1,11 @@
+// CheckArticle.mjs (23 October 2026, 23:15 Paris): open the article in isolated Chromium, measure overflow and fonts, write previews and the cover. / vérifie l'article.
+const { chromium } = await import('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/playwright/index.mjs')
+const D = process.argv[2]
+const b = await chromium.launch({ executablePath: process.env.HOME + '/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell' })
+for (const [name, w, h] of [['desktop', 1440, 900], ['mobile', 390, 844]]) {
+  const p = await b.newPage({ viewport: { width: w, height: h } }); await p.goto('file://' + D + '/index.html'); await p.waitForTimeout(800)
+  const r = await p.evaluate(() => ({ overflow: document.documentElement.scrollWidth - innerWidth, imgs: [...document.images].filter(i => !i.naturalWidth).length, sectra: document.fonts.check('italic 40px "GT Sectra LCG"') || [...document.fonts].some(f => /Sectra/i.test(f.family) && f.status === 'loaded') }))
+  console.log(name, JSON.stringify(r)); await p.screenshot({ path: `${D}/preview-${name}.png` })
+  if (name === 'desktop') await p.screenshot({ path: `${D}/ArticleCover-23-October-2026.jpg`, type: 'jpeg', quality: 82 })
+}
+await b.close()
