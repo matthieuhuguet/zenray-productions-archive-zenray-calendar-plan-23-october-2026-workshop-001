@@ -1,0 +1,5 @@
+{ "date": "2026-10-28", "tasks": [
+  { "match": "10 à 100 mails aux studios", "drop": true },
+  { "title": "Sport", "at": "12:00", "durationMin": 60 },
+  { "title": "Oeuvre libre (repos)", "at": "15:00", "durationMin": 120 }
+] }

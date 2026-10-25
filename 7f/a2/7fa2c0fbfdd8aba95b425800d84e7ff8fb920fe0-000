@@ -1,0 +1,11 @@
+{ "date": "2026-10-25", "tasks": [
+  { "match": "10 mails par jour", "drop": true },
+  { "title": "Installer Trails in the Sky (premier opus) avec CrossOver", "at": "12:05", "durationMin": 45 },
+  { "title": "Déjeuner", "at": "13:00", "durationMin": 60 },
+  { "title": "Finir le module ZenRay Freelance (1/2)", "at": "14:10", "durationMin": 75 },
+  { "title": "Finir le module ZenRay Freelance (2/2)", "at": "15:35", "durationMin": 75 },
+  { "title": "Jouer à Trails in the Sky", "at": "17:00", "durationMin": 75 },
+  { "title": "Lupin the Third, finir la partie 2", "at": "18:25", "durationMin": 60 },
+  { "title": "Dîner", "at": "19:35", "durationMin": 60 },
+  { "title": "Film japonais", "at": "20:45", "durationMin": 120 }
+] }

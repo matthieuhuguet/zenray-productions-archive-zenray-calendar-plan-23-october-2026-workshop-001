@@ -1,23 +1,23 @@
 {
   "title": "ZenRay Calendar Plan",
   "eyebrow": "Organisation des journées",
-  "date": "24 October 2026",
+  "date": "25 October 2026",
   "subtitle": "zenray-calendar-plan",
-  "status": "Version du 24 October 2026, générée depuis SKILL.md",
+  "status": "Version du 25 October 2026, générée depuis SKILL.md",
   "lead": "Skill qui place les tâches d’une journée dans ZenRay Plan et Google Calendar, en blocs de 15 minutes, repas compris, sans deux événements à la même heure. Cet article est généré depuis le skill à chaque consignation.",
   "hero": "hero",
   "heroAlt": "Frise horaire du 24 October 2026 lue dans le Plan.",
   "heroText": "Une journée réelle, relue dans le Plan et dans Google Calendar.",
   "heroCaption": "Rendu par Scripts/MakeHero.mjs depuis CalendarPlan.mjs check.",
   "sources": "Sources.json",
-  "footer": "ZenRay Calendar Plan · 24 October 2026 · SKILL.md ce55328c28fe",
+  "footer": "ZenRay Calendar Plan · 25 October 2026 · SKILL.md 772914eba7c4",
   "fileLabels": {
     "hero": "Frise horaire du 24 October 2026 lue dans le Plan."
   },
   "fileRoles": {
     "hero": "Image d’ouverture."
   },
-  "skillSha256": "ce55328c28fe18738236c31202624b01f11fc250602b3be5b94070313f30a157",
+  "skillSha256": "772914eba7c45da0293e1f2932dfcc36a0bc0afa848e399151bcfb8df856531d",
   "sections": [
     {
       "id": "s01",
@@ -81,6 +81,13 @@
       "title": "L'article Assets suit le skill, toujours (23 October 2026)",
       "nav": "L'article Assets suit le skill, toujours",
       "html": "<ul><li>Mots de Matthieu (23 October 2026) : « l'article, c'est aussi une source de vérité, tout comme le skill » ; « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». L'article V1 était écrit à la main une seule fois et disait encore « déjeuner jamais écrit » après la correction. (23 October 2026)</li><li>Correction de conception (23 October 2026) : l'article n'a plus de texte propre, il est GÉNÉRÉ depuis ce SKILL.md par <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs</code>, réglé par <code style=\"overflow-wrap:anywhere\">ARTICLE.json</code> de ce skill (projet, titre, image d'ouverture refaite par <code style=\"overflow-wrap:anywhere\">Scripts/MakeHero.mjs</code>). <code style=\"overflow-wrap:anywhere\">sync-skill.sh</code> l'appelle à chaque consignation : article rendu, contrôlé (pas de tiret long, pas de débordement desktop ni mobile), publié dans Assets, envoyé au cloud ; un échec sort en code 3 avec « ARTICLE NOT REFRESHED ». (23 October 2026)</li><li>Contrôle (23 October 2026) : <code style=\"overflow-wrap:anywhere\">node /Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs zenray-calendar-plan --check</code> sort 0 seulement si l'article correspond au SKILL.md actuel ET que son envoi cloud est <code style=\"overflow-wrap:anywhere\">done</code>. On modifie le SKILL.md, jamais l'article. (23 October 2026)</li></ul><ul><li>24 October 2026 : le principe est généralisé à tous les articles Assets (Registry.json, refresh-articles.mjs, LaunchAgent com.zenray.articles-refresh) ; détail dans le skill zenray-assets, section du 24 October 2026. (24 October 2026)</li></ul>"
+    },
+    {
+      "id": "s10",
+      "eyebrow": "10 / 25 October 2026 : la semaine type et la priorité argent",
+      "title": "25 October 2026 : la semaine type et la priorité argent",
+      "nav": "25 October 2026 : la semaine type et la ",
+      "html": "<ul><li>Mots de Matthieu (25 October 2026), condensés sans changer le sens : la stratégie construite ces quatre ou cinq dernières années autour du tech artist est validée ; il faut maintenant gagner de l'argent (cap 10 000 € de chiffre d'affaires, coaché par Andreas), tout en continuant le sport et les œuvres culturelles, « et le but, c'est d'être heureux ». (25 October 2026)</li><li>Rythme de la semaine (25 October 2026) : lundi et mardi à fond, mercredi repos, jeudi et vendredi à fond, samedi et dimanche repos. Un jour de repos n'a pas de prospection ; il garde le sport, les repas et une œuvre (jeu, série, film). (25 October 2026)</li><li>Journée à fond type (25 October 2026), posée du 26 au 30 October 2026 : 09:00-10:15 « 10 à 100 mails aux studios » ; 10:25-11:40 chantier du jour ; 12:00-13:00 sport ; 13:10-14:10 déjeuner ; 14:20-15:35 « 3 shorts du jour » ; 15:45-17:00 japonais ; 17:10-18:25 « Publier la suite du travail de tech artist » ; 19:30 dîner. Fiches dans <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/days/</code>. (25 October 2026)</li><li>Prospection (25 October 2026) : 10 à 100 mails aux studios par jour travaillé ; avec le module ZenRay Freelance fini, 100 par jour, soit environ 700 par semaine, ce qui doit apporter des entretiens et une mission. Le volume prime sur la prudence (règle zenray-sales). (25 October 2026)</li><li>Publication (25 October 2026) : 3 shorts par jour travaillé (supposé : pas les jours de repos tant que Matthieu ne dit pas autre chose) et une publication de la suite de son travail de tech artist, environ une par jour. (25 October 2026)</li><li>Les œuvres culturelles sont au Plan comme le reste (25 October 2026) : dimanche 25 October 2026, Trails in the Sky, Lupin the Third partie 2, un film japonais, à côté de la fin du module ZenRay Freelance. Les choisir reste à Matthieu, jamais une recommandation de l'agent. (25 October 2026)</li><li>Une proposition de journée attend sa validation quand Matthieu le demande (<code style=\"overflow-wrap:anywhere\">/wait-validation</code>) : demande notée dans FEEDBACK.md, plan montré, rien d'écrit avant son « validé ». Une journée posée en retard sur l'heure réelle se décale à partir de l'heure courante en gardant l'ordre validé (dimanche 25 October 2026, proposé à 10:00, posé à 12:05). (25 October 2026)</li></ul>"
     }
   ]
 }

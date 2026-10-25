@@ -1,0 +1,8 @@
+{ "date": "2026-10-27", "tasks": [
+  { "match": "10 à 100 mails aux studios", "at": "09:00", "durationMin": 75 },
+  { "title": "Production tech art, chantier du jour", "workMin": 60, "after": "10:15" },
+  { "title": "Sport", "at": "12:00", "durationMin": 60 },
+  { "title": "3 shorts du jour", "workMin": 60, "after": "14:10" },
+  { "title": "Japonais", "workMin": 60, "after": "15:35" },
+  { "title": "Publier la suite du travail de tech artist", "workMin": 60, "after": "17:00" }
+] }
