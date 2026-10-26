@@ -1,0 +1,31 @@
+{
+  "date": "26 October 2026",
+  "gallery": "pages/Design/design.json",
+  "folder": {
+    "id": "zenray-plan-before-26-october-2026",
+    "kind": "folder",
+    "name": "ZenRay Plan, ancien design, 26 October 2026",
+    "items": [
+      {
+        "id": "zenray-plan-before-26-october-2026-dark",
+        "kind": "image",
+        "path": "uploads/mvp7avet-kg1n5.png",
+        "name": "ZenRay Plan, ancien design sombre, 26 October 2026",
+        "w": 1920,
+        "h": 1200,
+        "addedAt": "2026-10-26T11:56:24.051Z"
+      },
+      {
+        "id": "zenray-plan-before-26-october-2026-light",
+        "kind": "image",
+        "path": "uploads/mvp7axn6-koo1u.png",
+        "name": "ZenRay Plan, ancien design clair, 26 October 2026",
+        "w": 1920,
+        "h": 1200,
+        "addedAt": "2026-10-26T11:56:27.206Z"
+      }
+    ],
+    "addedAt": "2026-10-26T11:56:28.455Z"
+  },
+  "verified": true
+}

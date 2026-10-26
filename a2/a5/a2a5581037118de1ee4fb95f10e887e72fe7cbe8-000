@@ -1,0 +1,71 @@
+# 26 October 2026, 14:15 Paris: Apply the selected material without changing calendar geometry.
+from pathlib import Path
+root=Path('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress')
+p=root/'src/create/planUiConfig.js';s=p.read_text();s=s.replace("texte: 'var(--zr-police-sans)'",'''texte: "'GT Standard L', 'Hiragino Sans W4', sans-serif"''').replace("marque: 'var(--zr-police-sans)'",'''marque: "'GT Ultra', 'Hiragino Sans W4', sans-serif"''').replace('heure: "\'AnthropicSerif\', serif"','heure: "\'GT Ultra\', serif"').replace('titreTache: "\'AnthropicSerif\', serif"','titreTache: "\'Literata Plan\', \'Literata\', serif"')
+marker='  type: {';assert marker in s;s=s.replace(marker,"""  // 26 October 2026, 14:15 Paris: Selected Verre clarifie; geometry remains unchanged.
+  detail: { width: 430, margin: 16, gap: 12 },
+  readability: {
+    blur: 80,
+    light: { surface: '242 245 238', tile: '246 247 244', ink: '#212722', muted: '#4c564d', popover: '#f5f7f1' },
+    dark: { surface: '31 39 33', tile: '55 62 56', ink: '#f5f6ed', muted: '#d0d7cc', popover: '#303a31' },
+    stageAlpha: 0.72, tileAlpha: 0.94,
+  },
+"""+marker,1)
+marker="export const PLAN_CSS_VARIABLES = {";assert marker in s;s=s.replace(marker,marker+"""
+  '--zrp-read-blur': px(PLAN_UI.readability.blur),
+  '--zrp-read-stage-alpha': PLAN_UI.readability.stageAlpha,
+  '--zrp-read-tile-alpha': PLAN_UI.readability.tileAlpha,
+  '--zrp-detail-width': px(PLAN_UI.detail.width),
+  '--zrp-detail-margin': px(PLAN_UI.detail.margin),
+  ...Object.fromEntries(['light', 'dark'].flatMap((theme) => Object.entries(PLAN_UI.readability[theme]).map(([key, value]) => [`--zrp-read-${theme}-${key}`, value]))),
+""",1);p.write_text(s)
+p=root/'src/create/PlanBoard.jsx';s=p.read_text();marker="import './PlanBoard.css'";s=s.replace(marker,"import PlanText, { hasPlanDate } from './PlanText.jsx'\nimport PlanTaskPopover from './PlanTaskPopover.jsx'\n"+marker)
+s=s.replace('function DetailEditor({ task, today, allTasks = [], titleInputRef, onCommit, onPatch, onDelete, onToggleDropped, onClose })','function DetailEditor({ task, today, allTasks = [], titleInputRef, onCommit, onPatch, onDelete, onToggleDone, onToggleDropped, onClose })')
+s=s.replace("  const [pickerOpen, setPickerOpen] = useState(false)","  const [pickerOpen, setPickerOpen] = useState(false)\n  const [attachmentsOpen, setAttachmentsOpen] = useState(false)\n  const completed = ['done', 'late-complete'].includes(task.status)",1)
+# Compact completion, with the existing persistence handler rather than a separate task state.
+needle='      <PlanAttachments task={task} onPatch={onPatch} />';assert needle in s;s=s.replace(needle,"""      <div className="zrp-detail-actions">
+        <button type="button" className={`zrp-complete-task${completed ? ' zrp-completed' : ''}`} aria-pressed={completed}
+          onClick={(event) => {
+            commitNow()
+            if (!reducedMotion()) event.currentTarget.animate([
+              { transform: 'scale(1)' }, { transform: 'scale(.94)', offset: .35 },
+              { transform: 'scale(1.04)', offset: .72 }, { transform: 'scale(1)' },
+            ], { duration: PLAN_UI.motion.confirm, easing: 'cubic-bezier(.16,1,.3,1)' })
+            onToggleDone?.(task)
+          }}><span className="zrp-complete-pin" aria-hidden="true">{completed ? '✓' : ''}</span>{completed ? 'Completed' : 'Mark as done'}</button>
+        <button type="button" className="zrp-attachment-toggle" aria-expanded={attachmentsOpen}
+          onClick={() => setAttachmentsOpen((open) => !open)}><Icon name="paperclip" size={14} />Attachments{task.attachments?.length ? <PlanText value>{task.attachments.length}</PlanText> : null}</button>
+      </div>
+      {attachmentsOpen && <PlanAttachments task={task} onPatch={onPatch} />}
+""")
+s=s.replace('className="zrp-detail-note" placeholder=', 'className={`zrp-detail-note${hasPlanDate(note) ? \' zrp-whole-value\' : \'\'}`} placeholder=')
+for expr in ['fmtFullDate(task.date)','fmt12(task.startTime)','fmtDuration(task.durationMin || 0)']:
+ s=s.replace('}</strong>{'+expr+'}', '}</strong><PlanText value>{'+expr+'}</PlanText>') if False else s
+ s=s.replace('</strong>{'+expr+'}', '</strong><PlanText value>{'+expr+'}</PlanText>')
+s=s.replace('<span>{MONTHS[view.month]} {view.year}</span>','<span className="zrp-number-value">{MONTHS[view.month]} {view.year}</span>')
+s=s.replace('{planTileBareTitle(task)}</span>', '<PlanText>{planTileBareTitle(task)}</PlanText></span>')
+s=s.replace('{task.title}</strong>', '<PlanText>{task.title}</PlanText></strong>')
+s=s.replace('onOpen(task)', 'onOpen(task, tileRef.current)')
+# Open in the viewport; keep the existing editor and motion states, never absorb other days.
+s=s.replace('  const [panelGeometry, setPanelGeometry] = useState(null)', '  const [detailAnchor, setDetailAnchor] = useState(null)')
+s=s.replace('    setPanelGeometry(null)', '    setDetailAnchor(null)')
+s=s.replace('  const performOpen = async ({ taskId, cellIndex, totalCells, cellsSnapshot }) => {', '  const performOpen = async ({ taskId, anchor }) => {')
+a=s.index('    const placement = computePlacement(cellIndex, totalCells)',s.index('const performOpen'));b=s.index('    setRenderedId(taskId)',a)
+s=s[:a]+"    setDetailAnchor(anchor)\n    renderedTaskRef.current = task\n"+s[b:]
+s=s.replace('const openTaskAt = (task, cellIndex) => requestPanel({ taskId: task.id, cellIndex, totalCells: cells.length, cellsSnapshot: cells })','const openTaskAt = (task, cellIndex, anchor) => requestPanel({ taskId: task.id, anchor })')
+s=s.replace('onOpen={() => openTaskAt(task, index)}','onOpen={(openedTask, anchor) => openTaskAt(task, index, anchor)}')
+s=s.replace('onOpen={() => closeThen(() => openTaskAt(task, index))}','onOpen={(openedTask, anchor) => closeThen(() => openTaskAt(task, index, anchor))}')
+# Only one editor is ever mounted, even at a breakpoint.
+a=s.index('            {panelGeometry && panelTask && (');b=s.index('\n          </div>',a);s=s[:a]+s[b:]
+a=s.index('                {isOpenHere && (');b=s.index('\n              </div>',a);s=s[:a]+s[b:]
+s=s.replace('            const isOpenHere = panelTask && panelTask.date === cell.iso\n','')
+needle='        {/* Zone Overdue';a=s.index(needle);s=s[:a]+"""        {panelTask && detailAnchor && <PlanTaskPopover anchor={detailAnchor} dark={dark} visible={shellVisible} onClose={closePanel}>
+          <div className={`zrp-detail-content${contentVisible ? ' zrp-visible' : ''}`}>
+            <DetailEditor key={panelTask.id} task={panelTask} today={today} allTasks={board?.tasks || []} titleInputRef={titleInputRef}
+              onCommit={(patch) => updateTask(panelTask.id, patch)} onPatch={(patch) => updateTask(panelTask.id, patch)}
+              onDelete={() => deleteTask(panelTask)} onToggleDone={toggleDone} onToggleDropped={() => toggleDropped(panelTask)} onClose={closePanel} />
+          </div>
+        </PlanTaskPopover>}
+
+"""+s[a:]
+p.write_text(s)

@@ -1,0 +1,21 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:70129) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:70130) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/PlanTaskPopover.test.jsx (3 tests) 156ms
+ ✓ src/create/PlanBoardAttachments.test.jsx (2 tests) 389ms
+(node:70148) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/planUiConfig.test.js (10 tests) 2ms
+(node:70170) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/PlanTimePicker.test.jsx (2 tests) 1ms
+
+ Test Files  4 passed (4)
+      Tests  17 passed (17)
+   Start at  12:59:28
+   Duration  1.32s (transform 189ms, setup 115ms, collect 401ms, tests 548ms, environment 718ms, prepare 117ms)
+

@@ -1,0 +1,22 @@
+✔ the repository has no script that pushes outside the policy without a reason (22.809709ms)
+✔ every allowlist entry names an existing file and gives a reason of a real sentence (0.215958ms)
+✔ RED: an upload script that runs git push without the policy and without a reason fails the guard (0.78675ms)
+✔ RED: a python and a shell upload script are covered as well (1.015708ms)
+✔ GREEN: the same script passes when it imports the policy, or when it is allowlisted with a reason (0.61125ms)
+✔ RED: a mention of the policy in a comment is not routing (0.560417ms)
+✔ RED: a payload sent through the Git Data API (POST git/blobs) without a push word is a push path (0.712916ms)
+✔ RED: importing the policy for its numbers while running an own push loop is not routing (0.645375ms)
+✔ RED: a stale allowlist entry, an entry that became routed and an entry without a reason are reported (1.002ms)
+✔ RED: a fixed push batch written as a literal (the 190 MiB pin of the film worker) is reported (0.976042ms)
+✔ the delivered numbers: 1 900 MiB in 20 parts, 7.2 % under 2 048 MiB, 43 parts in a 4 096 MiB repository (0.328583ms)
+✔ RED/GREEN: a deployed copy of worker scripts outside the repository is scanned for a pinned batch (0.753625ms)
+﹣ the deployed worker scripts do not pin a fixed batch (only when ZR_DEPLOYED_SCRIPTS_DIR is set) (0.031125ms) # SKIP
+✔ AttachVideoCmafDashHls hands the whole segment list to pushFiles, without a fixed batch limit (0.275125ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 1
+ℹ todo 0
+ℹ duration_ms 113.237166
