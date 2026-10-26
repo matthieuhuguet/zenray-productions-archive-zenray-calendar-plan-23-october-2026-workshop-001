@@ -1,0 +1,44 @@
+{
+  "appearance" : "NSAppearanceNameAqua",
+  "checkedAt" : "2026-10-09T00:40:00.000Z",
+  "connected" : true,
+  "contentAppearance" : "NSAppearanceNameAqua",
+  "contentHeight" : 131,
+  "contentOpaque" : true,
+  "contentWidth" : 420,
+  "countedProjectCount" : 0,
+  "diagnostics" : [
+
+  ],
+  "fileCount" : 0,
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 93117,
+  "popoverHeight" : 131,
+  "popoverShown" : false,
+  "popoverWidth" : 420,
+  "popoverWindowVisible" : false,
+  "projectCount" : 0,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{0, 0}, {34, 0}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "Tout est à jour\n0 projets · 0 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\n",
+  "tileAppearances" : [
+
+  ],
+  "tileBackgroundLuminance" : [
+
+  ],
+  "tooltip" : "",
+  "transferRates" : {
+    "downloadBytesPerSecond" : 0,
+    "uploadBytesPerSecond" : 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "appearance" : "NSAppearanceNameAqua",
+  "checkedAt" : "2026-10-09T00:40:00.000Z",
+  "connected" : true,
+  "contentAppearance" : "NSAppearanceNameVibrantLight",
+  "contentHeight" : 560,
+  "contentOpaque" : true,
+  "contentWidth" : 420,
+  "countedProjectCount" : 5,
+  "diagnostics" : [
+    "Unterminated string in JSON at position 99"
+  ],
+  "fileCount" : 200,
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 93147,
+  "popoverHeight" : 560,
+  "popoverShown" : true,
+  "popoverWidth" : 420,
+  "popoverWindowVisible" : true,
+  "projectCount" : 5,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{0, -33}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "Sauvegarde de ZenRayProgress\nVérification des fichiers\n4 opérations en attente · file bloquée par un autre processus · 1 projet à vérifier\nLa file attend un autre processus\nLe processus 50960 · node scripts\/local-server.mjs tient l'écriture cloud ; 26 opérations attendent.\nArrêter ce processus\nÀ vérifier\nZenRayProgress · Données du cloud illisibles · Réessayer · Mettre de côté\n5 projets · 200 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nActions : Sauvegarder · Charger sur Mac · Décharger du Mac\nBrique : ZenRayProgress, Mac 10, Cloud 15\nBrique : Projet attente 4, Mac 26, Cloud 27\nBrique : Projet attente 3, Mac 22, Cloud 24\nBrique : Projet attente 2, Mac 18, Cloud 21\nBrique : Projet attente 1, Mac 14, Cloud 18\n",
+  "tileAppearances" : [
+    "NSAppearanceNameVibrantLight",
+    "NSAppearanceNameVibrantLight",
+    "NSAppearanceNameVibrantLight",
+    "NSAppearanceNameVibrantLight",
+    "NSAppearanceNameVibrantLight"
+  ],
+  "tileBackgroundLuminance" : [
+    0.41437411764705878,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tooltip" : "ZenRayProgress · Données du cloud illisibles",
+  "transferRates" : {
+    "downloadBytesPerSecond" : 0,
+    "uploadBytesPerSecond" : 0
+  }
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "mode": "simultaneous",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-simultaneous.json"
+  },
+  {
+    "mode": "busy-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-busy-queue.json"
+  },
+  {
+    "mode": "empty",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-empty.json"
+  },
+  {
+    "mode": "down",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-down.json"
+  },
+  {
+    "mode": "large-error",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-large-error.json"
+  },
+  {
+    "mode": "timeout",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-timeout.json"
+  },
+  {
+    "mode": "current-errors",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-current-errors.json"
+  },
+  {
+    "mode": "contended-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-contended-queue.json"
+  },
+  {
+    "mode": "auto-open-contended-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardAutoOpen-contended-queue.json"
+  },
+  {
+    "mode": "auto-open-busy-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardAutoOpen-busy-queue.json"
+  },
+  {
+    "mode": "scope-mac",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-scope-mac.json"
+  },
+  {
+    "mode": "scope-cloud",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardFixture-scope-cloud.json"
+  },
+  {
+    "mode": "appearance-light",
+    "passed": true,
+    "appearance": "NSAppearanceNameAqua",
+    "tileBackgroundLuminance": [
+      0.4143741176470588,
+      1,
+      1
+    ]
+  },
+  {
+    "mode": "appearance-dark",
+    "passed": true,
+    "appearance": "NSAppearanceNameDarkAqua",
+    "tileBackgroundLuminance": [
+      0.4143741176470588,
+      0.11764705882352941,
+      0.11764705882352941
+    ]
+  },
+  {
+    "mode": "live-dashboard",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/DashboardProof/NativeDashboardLive.json",
+    "fileCount": 220797,
+    "projectCount": 44
+  }
+]

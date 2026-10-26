@@ -1,0 +1,49 @@
+{
+  "appearance" : "NSAppearanceNameAqua",
+  "checkedAt" : "2026-10-09T00:40:00.000Z",
+  "connected" : true,
+  "contentAppearance" : "NSAppearanceNameAqua",
+  "contentHeight" : 355,
+  "contentOpaque" : true,
+  "contentWidth" : 420,
+  "countedProjectCount" : 1,
+  "diagnostics" : [
+    "Unterminated string in JSON at position 54495920",
+    "Current feedback failure",
+    "ENOENT: current watcher failure",
+    "secret-protection",
+    "Current conversation indexing failure",
+    "Previous service stopped before completion; backup can resume"
+  ],
+  "fileCount" : 13,
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 93140,
+  "popoverHeight" : 355,
+  "popoverShown" : false,
+  "popoverWidth" : 420,
+  "popoverWindowVisible" : false,
+  "projectCount" : 1,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{0, -33}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "1 projet à vérifier\nDonnées du cloud illisibles · Dossier introuvable sur le Mac · 2 autres problèmes\nÀ vérifier\nProjet surveillé · Sauvegarde interrompue, reprise possible · Données du cloud illisibles · Dossier introuvable sur le Mac · Protection des secrets · Réessayer · Mettre de côté\n1 projets · 13 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nActions : Ajouter au Mac · Décharger du Mac\nBrique : Projet surveillé, Mac 8, Cloud 10\n",
+  "tileAppearances" : [
+    "NSAppearanceNameAqua"
+  ],
+  "tileBackgroundLuminance" : [
+    0.41437411764705878
+  ],
+  "tooltip" : "Projet surveillé · Sauvegarde interrompue, reprise possible, Données du cloud illisibles, Dossier introuvable sur le Mac, Protection des secrets",
+  "transferRates" : {
+    "downloadBytesPerSecond" : 0,
+    "uploadBytesPerSecond" : 0
+  }
+}

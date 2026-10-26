@@ -1,0 +1,48 @@
+{
+  "appearance" : "NSAppearanceNameAqua",
+  "checkedAt" : "2026-10-09T00:40:00.000Z",
+  "connected" : true,
+  "contentAppearance" : "NSAppearanceNameVibrantLight",
+  "contentHeight" : 383,
+  "contentOpaque" : true,
+  "contentWidth" : 420,
+  "countedProjectCount" : 3,
+  "diagnostics" : [
+    "Historical failure"
+  ],
+  "fileCount" : 90,
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 93101,
+  "popoverHeight" : 383,
+  "popoverShown" : true,
+  "popoverWidth" : 420,
+  "popoverWindowVisible" : true,
+  "projectCount" : 3,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{990, 1084}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "Chargement de Projet chargé\nPréparation du fichier\n1 opération en attente\n3 projets · 90 fichiers\nUpload ↑ 1 MB\/s    Download ↓ 420 KB\/s\nVue : Tout\nActions : Sauvegarder · Ajouter au Mac · Décharger du Mac\nBrique : Projet chargé, Mac 10, Cloud 15\nBrique : Projet libéré, Mac 14, Cloud 18\nBrique : Projet sauvegardé, Mac 0, Cloud 40\n",
+  "tileAppearances" : [
+    "NSAppearanceNameVibrantLight",
+    "NSAppearanceNameVibrantLight",
+    "NSAppearanceNameVibrantLight"
+  ],
+  "tileBackgroundLuminance" : [
+    0.41437411764705878,
+    1,
+    1
+  ],
+  "tooltip" : "",
+  "transferRates" : {
+    "downloadBytesPerSecond" : 420000,
+    "uploadBytesPerSecond" : 1499000
+  }
+}
