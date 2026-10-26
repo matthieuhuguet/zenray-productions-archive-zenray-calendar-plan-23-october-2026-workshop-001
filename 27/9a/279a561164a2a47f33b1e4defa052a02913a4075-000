@@ -1,6 +1,6 @@
 {
   "appearance" : "NSAppearanceNameAqua",
-  "checkedAt" : "2026-10-26T12:39:48.182Z",
+  "checkedAt" : "2026-10-26T12:52:51.699Z",
   "connected" : true,
   "contentAppearance" : "NSAppearanceNameVibrantLight",
   "contentHeight" : 560,
@@ -12,18 +12,14 @@
     "Previous service stopped before completion; backup can resume",
     "Previous service stopped before completion; backup can resume",
     "Previous service stopped before completion; backup can resume",
-    "Previous service stopped before completion; backup can resume",
-    "Previous service stopped before completion; backup can resume",
-    "Previous service stopped before completion; backup can resume",
-    "Previous service stopped before completion; backup can resume",
-    "Previous service stopped before completion; backup can resume",
-    "Previous service stopped before completion; backup can resume",
     "Previous service stopped before completion; backup can resume"
   ],
-  "fileCount" : 220797,
+  "fileCount" : 220984,
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 93226,
+  "outsideClickMonitorActive" : true,
+  "pid" : 58375,
+  "popoverBehaviorTransient" : true,
   "popoverHeight" : 560,
   "popoverShown" : true,
   "popoverWidth" : 420,
@@ -39,7 +35,7 @@
   "statusItemHasImage" : true,
   "statusItemLength" : 18,
   "statusItemVisible" : true,
-  "text" : "42 opérations en attente · file bloquée par un autre processus · 11 projets à vérifier\nSauvegarde interrompue, reprise possible (11)\nLa file attend un autre processus\nLe processus 50960 · node scripts\/local-server.mjs tient l'écriture cloud ; 42 opérations attendent.\nArrêter ce processus\nÀ vérifier\nVegatations Assets ZenRay Collection 01 · Sauvegarde interrompue, reprise possible · Réessayer · Mettre de côté\nZenRay Meshes · Sauvegarde interrompue, reprise possible · Réessayer · Mettre de côté\nZenRay Motion Design · Sauvegarde interrompue, reprise possible · Réessayer · Mettre de côté\nLouisiana Bayou · Sauvegarde interrompue, reprise possible · Réessayer · Mettre de côté\n44 projets · 220797 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nActions : Charger sur Mac\nBrique : zenray-japanese, Mac 102546, Cloud 102546\nBrique : Vegatations Assets ZenRay Collection 01, Mac 18245, Cloud 18425\nBrique : ZenRay Meshes, Mac 14500, Cloud 13570\nBrique : ZenRay Motion Design, Mac 6706, Cloud 12915\nBrique : ZenRay Plan, Mac 11038, Cloud 11097\nBrique : Control Resonant CrossOver, Mac 9005, Cloud 9005\nBrique : Louisiana Bayou, Mac 5753, Cloud 8716\nBrique : ToDo3D, Mac 8100, Cloud 8100\nBrique : ZenRayProgress, Mac 3597, Cloud 7597\nBrique : ZenRay Height, Mac 5956, Cloud 6120\nBrique : Ceramic Tiles, Mac 4419, Cloud 4419\nBrique : ZenRay Assets Tube View, Mac 18, Cloud 4413\nBrique : Mac memory and lightweight clipboard, Mac 3943, Cloud 3943\nBrique : ZenRay-Edit, Mac 1425, Cloud 1425\nBrique : ZenRayShards, Mac 950, Cloud 950\nBrique : ZenRay Assets V2, Mac 714, Cloud 919\nBrique : ZenRay SFX, Mac 785, Cloud 785\nBrique : ZenRayDictate, Mac 315, Cloud 330\nBrique : Poisson gloss poterie Aix 8 octobre 2026, Mac 326, Cloud 345\nBrique : ZenRay Motion Design 01, Mac 231, Cloud 231\nBrique : Environnement japonais, Mac 225, Cloud 225\nBrique : ZenRayPostKit, Mac 181, Cloud 181\nBrique : ZenRay Calendar Plan, Mac 173, Cloud 142\nBrique : Studio photo Matthieu, 17 October 2026, Mac 168, Cloud 168\nBrique : ZenRay Knowledge, Mac 80, Cloud 80\nBrique : UV-Match Height, Mac 66, Cloud 66\nBrique : Control Resonant Hub Assets, Mac 63, Cloud 63\nBrique : ZenRay Money, Mac 58, Cloud 58\nBrique : ZenRayColorPicker, Mac 54, Cloud 57\nBrique : QLMarkdown, trois designs, Mac 42, Cloud 42\nBrique : ZenRay Freelance, Mac 41, Cloud 41\nBrique : ZenRay Sales, Mac 34, Cloud 34\nBrique : Mac security incident, Mac 28, Cloud 28\nBrique : Bibliothèque Houdini, Mac 14, Cloud 14\nBrique : Control Brutalist Fountain, Mac 13, Cloud 13\nBrique : Contacter les vendeurs de GPU, Mac 11, Cloud 11\nBrique : sharingan-method, Mac 10, Cloud 10\nBrique : Blender procedural texturing comparison, Mac 9, Cloud 9\nBrique : Gallery Artists ArtStation, Mac 9, Cloud 9\nBrique : Installation Blender 5.2.2 et MCP Blender officiel, Mac 9, Cloud 9\nBrique : Lectures relationnel, Mac 9, Cloud 9\nBrique : macOS fullscreen top bar, Mac 9, Cloud 9\nBrique : zenray-cop-designer (DEPRECATED), Mac 4, Cloud 1593\nBrique : Conversations des agents, Mac 1052, Cloud 1052\n",
+  "text" : "Sauvegarde de ZenRay Assets V2\nVérification du cloud\n21 opérations en attente\n44 projets · 220984 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nActions : Sauvegarder · Ajouter au Mac · Décharger du Mac\nBrique : ZenRay Assets V2, Mac 714, Cloud 919\nBrique : zenray-japanese, Mac 102546, Cloud 102546\nBrique : Vegatations Assets ZenRay Collection 01, Mac 18245, Cloud 18425\nBrique : ZenRay Meshes, Mac 14655, Cloud 13570\nBrique : ZenRay Motion Design, Mac 6706, Cloud 12915\nBrique : ZenRay Plan, Mac 11038, Cloud 11097\nBrique : Control Resonant CrossOver, Mac 9005, Cloud 9005\nBrique : Louisiana Bayou, Mac 5753, Cloud 8716\nBrique : ToDo3D, Mac 8100, Cloud 8100\nBrique : ZenRayProgress, Mac 3597, Cloud 7597\nBrique : ZenRay Height, Mac 5956, Cloud 6120\nBrique : Ceramic Tiles, Mac 4419, Cloud 4419\nBrique : ZenRay-Edit, Mac 1449, Cloud 1425\nBrique : ZenRayShards, Mac 950, Cloud 950\nBrique : ZenRay SFX, Mac 785, Cloud 785\nBrique : ZenRayDictate, Mac 315, Cloud 352\nBrique : Poisson gloss poterie Aix 8 octobre 2026, Mac 326, Cloud 345\nBrique : ZenRay Calendar Plan, Mac 173, Cloud 173\nBrique : Studio photo Matthieu, 17 October 2026, Mac 168, Cloud 168\nBrique : ZenRay Knowledge, Mac 80, Cloud 80\nBrique : ZenRay Freelance, Mac 49, Cloud 41\nBrique : ZenRay Assets Tube View, Mac 18, Cloud 4413\nBrique : Mac memory and lightweight clipboard, Mac 3943, Cloud 3943\nBrique : zenray-cop-designer (DEPRECATED), Mac 4, Cloud 1593\nBrique : Conversations des agents, Mac 1052, Cloud 1052\nBrique : ZenRay Motion Design 01, Mac 231, Cloud 231\nBrique : Environnement japonais, Mac 225, Cloud 225\nBrique : ZenRayPostKit, Mac 181, Cloud 181\nBrique : UV-Match Height, Mac 66, Cloud 66\nBrique : Control Resonant Hub Assets, Mac 63, Cloud 63\nBrique : ZenRay Money, Mac 58, Cloud 58\nBrique : ZenRayColorPicker, Mac 54, Cloud 57\nBrique : QLMarkdown, trois designs, Mac 42, Cloud 42\nBrique : ZenRay Sales, Mac 34, Cloud 34\nBrique : Mac security incident, Mac 28, Cloud 28\nBrique : Bibliothèque Houdini, Mac 14, Cloud 14\nBrique : Control Brutalist Fountain, Mac 13, Cloud 13\nBrique : Contacter les vendeurs de GPU, Mac 11, Cloud 11\nBrique : sharingan-method, Mac 10, Cloud 10\nBrique : Blender procedural texturing comparison, Mac 9, Cloud 9\nBrique : Gallery Artists ArtStation, Mac 9, Cloud 9\nBrique : Installation Blender 5.2.2 et MCP Blender officiel, Mac 9, Cloud 9\nBrique : Lectures relationnel, Mac 9, Cloud 9\nBrique : macOS fullscreen top bar, Mac 9, Cloud 9\n",
   "tileAppearances" : [
     "NSAppearanceNameVibrantLight",
     "NSAppearanceNameVibrantLight",
@@ -132,7 +128,7 @@
     1,
     1
   ],
-  "tooltip" : "Vegatations Assets ZenRay Collection 01 · Sauvegarde interrompue, reprise possible\nZenRay Meshes · Sauvegarde interrompue, reprise possible\nZenRay Motion Design · Sauvegarde interrompue, reprise possible\nLouisiana Bayou · Sauvegarde interrompue, reprise possible\nZenRayProgress · Sauvegarde interrompue, reprise possible\nZenRay Assets V2 · Sauvegarde interrompue, reprise possible\nZenRay SFX · Sauvegarde interrompue, reprise possible\nZenRayDictate · Sauvegarde interrompue, reprise possible\nZenRay Calendar Plan · Sauvegarde interrompue, reprise possible\nStudio photo Matthieu, 17 October 2026 · Sauvegarde interrompue, reprise possible\nZenRay Knowledge · Sauvegarde interrompue, reprise possible",
+  "tooltip" : "",
   "transferRates" : {
     "downloadBytesPerSecond" : 0,
     "uploadBytesPerSecond" : 0
