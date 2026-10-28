@@ -1,0 +1,7 @@
+{ "date": "2026-10-30", "tasks": [
+  { "title": "Lizardcube RDV, Technical Artist (visio)", "at": "14:00", "durationMin": 60, "note": "Visio avec Sacha Szymoniak (producer, Lizardcube), poste de Technical Artist. Lien de visio attendu de Sacha. Durée supposée 60 min, à corriger si l'invitation dit autre chose." },
+  { "match": "Déjeuner", "at": "13:10", "durationMin": 40 },
+  { "match": "3 shorts du jour", "workMin": 60, "after": "14:10" },
+  { "match": "Japonais", "workMin": 60, "after": "15:35" },
+  { "match": "Publier la suite du travail de tech artist", "workMin": 60, "after": "17:00" }
+] }
