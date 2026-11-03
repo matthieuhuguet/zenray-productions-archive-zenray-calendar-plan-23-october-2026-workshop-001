@@ -1,0 +1,74 @@
+# Brief v2 RDV Lizardcube, 30 October 2026 à 14:00 (visio)
+
+Refait de zéro le 30 October 2026, à partir de ta lettre, de l'annonce brute et de recherches neuves. L'ancien brief n'a pas servi à l'écrire.
+
+## Ton objectif en une phrase
+
+Montrer que tu règles le problème exact de l'annonce (faire passer le travail dessiné des artistes dans le moteur, avec des outils et des shaders fiables), en mission freelance définie, sans prétendre ce que tu ne sais pas.
+
+## Ce que tu as écrit (lettre du 27 October 2026)
+
+- Tu te présentes comme technical artist freelance, via ta propre structure, pour un périmètre défini, court ou long.
+- Ton cœur de métier dans la lettre : HDA Houdini vers Unreal Engine 5, shaders, textures procédurales, Python et VEX.
+- Meerkat Studio (Santa Simulator, Bakery Coffee Simulator) : intégration d'environnements, éclairage temps réel, optimisation du framerate.
+- Elle ne parle ni d'Unity, ni de 2D, ni de rendu non réaliste.
+
+## Ce que veut l'annonce (AFJV, capturée le 26 October 2026)
+
+- CDI temps plein, présentiel à Montreuil, convention Syntec, salaire non indiqué. Aucune mention de freelance.
+- Unity exigé (shading, URP, particules, terrain), 5 ans minimum dont un titre commercialisé.
+- Missions : flux de travail entre les artistes 2D/animation et le moteur, shaders custom, profilage, outils internes, un peu de 3D.
+- Goût demandé : rendu non réaliste, cel-shading, 2D/2.5D, couleur et lumière.
+- Qualités citées : autonomie, cadrer ses sujets, proposer des solutions pragmatiques.
+
+## L'écart à gérer (le point central)
+
+Ta lettre vend du 3D procédural Houdini/Unreal. L'annonce cherche du pipeline 2D vers Unity. Ne cache pas l'écart, déplace-le : ce qu'ils achètent, c'est un artiste technique qui retire les frictions entre le dessin et le moteur, quel que soit l'outil.
+
+## Le studio (recherches du 30 October 2026)
+
+- Studio indépendant d'une dizaine de personnes, derrière Wonder Boy: The Dragon's Trap, Streets of Rage 4 et Shinobi: Art of Vengeance (Sega, sorti en août 2025). Wikipédia donne Unity comme moteur de Shinobi (une seule source).
+- Ben Fiquet dirige le studio et l'art. Le cofondateur Omar Cornut est parti fin novembre 2024 pour fonder Disco Hello ([Nintendo Life](https://nintendolife.com/news/2024/11/lizardcube-co-founder-leaves-to-start-new-game-company)).
+- Prochain projet : « Eclipse », 150 000 € d'aide CNC à la préproduction, commission du 29 June 2026 ([CNC](https://www.cnc.fr/professionnels/aides-et-financements/resultats-commissions/fonds-daide-au-jeu-video-fajv--resultats-de-la-commission-du-29-juin-2026_2629290)). Je n'ai rien trouvé d'autre dessus : budget et moteur inconnus.
+- Une extension de Shinobi aurait paru en April 2026 (un seul résumé de recherche, non vérifié).
+- Leur philosophie, dite par Fiquet : « Because we make 2D titles, when I create drawings it's like rendering what will be the same in the final game » ([PlayStation Blog](https://blog.playstation.com/2025/08/28/shinobi-art-of-vengeance-the-remaking-of-a-ninja/)). Traduction pour toi : le dessin est l'œuvre finale, donc la fidélité du passage vers le moteur est ce qui compte. Le studio parle aussi de « finer control over every pixel » ([Xbox Wire](https://news.xbox.com/en-us/2025/08/29/shinobi-art-of-vengeance/)).
+- Le lieu varie selon les sources (Montreuil dans l'annonce, Paris 11e sur LinkedIn). Sans importance en visio.
+- Je n'ai trouvé aucune explication publique de leur pipeline technique ni de leurs outils. Demande-la.
+
+## Ton pitch, environ 60 secondes
+
+« Bonjour, merci pour le temps. Je suis Matthieu Huguet, technical artist freelance. Mon métier : faire en sorte que les artistes n'attendent jamais après la technique. Je construis des outils et des pipelines entre la création et le moteur, avec shaders, automatisation et optimisation. J'ai notamment travaillé avec Meerkat Studio sur des jeux sortis sur Steam, [ton rôle exact]. Chez vous, ce que je retiens de l'annonce, c'est le passage du dessin animé vers le moteur sans rien perdre du dessin, et des outils maison confortables pour vos artistes. Ma pratique est surtout Houdini et Unreal, [ta réponse honnête sur Unity]. Je propose un périmètre défini, court ou long, avec un résultat que vous pouvez juger vite. Pour que je vise juste : qu'est-ce qui ralentit le plus vos artistes aujourd'hui ? »
+
+## À préparer avant 14:00 (seulement toi le sais)
+
+- Unity : l'as-tu pratiqué ? Si oui, quel projet. Si non, dis-le en une phrase, puis ce que tu transposes (shaders, outils Python, profilage).
+- Années payées de métier, comptées depuis le premier contrat rémunéré.
+- Ton rôle exact chez Meerkat, vérifié contre les crédits Steam.
+- Ton statut et ton SIRET, puisque ta lettre dit « ma propre structure ».
+- Une démo prête à partager à l'écran, la plus proche de leur besoin (un outil ou un shader), pas un rendu.
+
+## Ton tarif
+
+Valeurs proposées hier, à toi de les valider : ouverture 400 € HT par jour, plancher 330 € HT. Si on te demande en premier : « Ça dépend du périmètre et de la durée. Ma base se situe autour de 400 € HT par jour. »
+
+## Questions à poser
+
+1. Le poste publié est un CDI : êtes-vous ouverts à une prestation freelance, sur quel périmètre et quelle durée ?
+2. Comment un dessin arrive-t-il aujourd'hui dans le moteur, et où perdez-vous le plus de temps ?
+3. Où en est le prototype d'Eclipse, et quel travail technique manque ?
+4. Quel serait un premier livrable de quelques jours pour essayer ensemble ? Y a-t-il un cas pratique ?
+
+## Si l'on te répond
+
+- « Nous cherchons un CDI » : « Je comprends. Je suis disponible en mission jusqu'à fin January 2027 environ. Un premier lot défini vous débloque pendant que vous recrutez. »
+- « Vous n'avez pas Unity » : « Non pas en production, voici ce que je transpose (…). Je préfère vous le dire maintenant. »
+- « Quel est votre tarif ? » : la phrase ci-dessus, puis revenir au périmètre.
+
+## Tenue de l'appel
+
+Chemise, caméra à hauteur des yeux, fond neutre, lien de visio et démo ouverts cinq minutes avant. Écoute d'abord, prends deux notes, ne parle pas plus de deux minutes d'affilée. Termine en proposant la prochaine étape précise (un échange avec Sacha ou un premier lot), jamais « on se tient au courant ».
+
+## Sources
+
+- [Annonce AFJV](https://emploi.afjv.com/emploi-jeux-video/EINF1939-29164) et ta lettre du 27 October 2026 (données zenray-data)
+- [PlayStation Blog](https://blog.playstation.com/2025/08/28/shinobi-art-of-vengeance-the-remaking-of-a-ninja/), [Xbox Wire](https://news.xbox.com/en-us/2025/08/29/shinobi-art-of-vengeance/), [Nintendo Life](https://nintendolife.com/news/2024/11/lizardcube-co-founder-leaves-to-start-new-game-company), [CNC](https://www.cnc.fr/professionnels/aides-et-financements/resultats-commissions/fonds-daide-au-jeu-video-fajv--resultats-de-la-commission-du-29-juin-2026_2629290)

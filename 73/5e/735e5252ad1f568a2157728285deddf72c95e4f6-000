@@ -1,0 +1,92 @@
+# Brief RDV Lizardcube, Technical Artist
+
+Préparé le 29 October 2026, pour le rendez-vous du 30 October 2026 à 14:00 en visio avec Sacha Szymoniak. Relis-le pendant ta pause déjeuner, de 13:10 à 13:50.
+
+## En une phrase
+
+Lizardcube cherche un Technical Artist en CDI, présentiel à Montreuil, avec Unity exigé. Tu as répondu en freelance, sur Houdini et Unreal. Le premier échange doit qualifier le besoin et la place d'une mission. Il ne signe rien.
+
+## Ce que dit ta lettre (envoyée le 27 October 2026)
+
+- Oui, elle dit que tu es freelance : « Technical Artist freelance, spécialisé dans les environnements procéduraux et les pipelines entre Houdini et Unreal Engine 5 ».
+- Tu proposes un périmètre défini (outils, intégration pipeline, production d'environnements), court ou long, « via ma propre structure ».
+- Tu cites Meerkat Studio (Santa Simulator et Bakery Coffee Simulator, sortis sur Steam) et tes travaux publics : Fleur de Lys, Houdini to Unreal, Ceramic Tiles, HDA Stairs Component.
+- Elle ne cite pas Unity.
+
+## Ce que demande l'annonce (fiche AFJV, capturée le 26 October 2026)
+
+- CDI temps plein, présentiel, Montreuil (93). Convention Syntec. Salaire « selon profil et expérience ». Aucune mention de freelance.
+- 5 ans minimum dans le jeu vidéo, dont au moins un titre commercialisé.
+- Unity exigé : shading, URP, particle system, terrain. Ni Unreal, ni Houdini, ni Python ne sont cités.
+- Missions : pipeline entre l'animation 2D et le moteur, shaders custom, profilage, outils internes, un peu de 3D.
+- Dix candidatures au moment de la capture.
+
+## Le studio
+
+- Studio indépendant d'environ dix personnes, derrière Wonder Boy: The Dragon's Trap, Streets of Rage 4 et Shinobi: Art of Vengeance.
+- Seul projet public trouvé en préproduction : Eclipse, 150 000 € d'aide du FAJV (commission du 29 June 2026). Aucune autre trace du jeu en ligne.
+- Le CNC impose de démarrer le prototype dans les trois mois suivant la commission, donc vers fin September 2026. Le prototype existe donc probablement déjà : demande où il en est.
+- Le CNC cite « les coûts des services de consultants et des services équivalents utilisés exclusivement pour la pré-production » comme dépense éligible. Il ne parle pas des freelances. Demande si ta mission peut entrer dans ce poste, sans l'affirmer toi-même.
+- Aucune trace publique de Sacha Szymoniak, ni de son titre. Demande le périmètre du poste à Sacha Szymoniak.
+
+## Ton numéro : pitch d'environ 60 secondes
+
+« Je suis Matthieu Huguet, technical artist freelance. Je fais le lien entre les artistes et le moteur : outils, pipeline, shaders, optimisation. Chez Meerkat Studio, j'ai intégré les environnements et l'éclairage temps réel sur des titres sortis sur Steam, [ton rôle exact]. Mes travaux publics, comme mon kit d'escaliers paramétrique entre Houdini et Unreal 5, suivent la même logique : retirer un goulot à vos artistes. Votre annonce demande Unity, [ta réponse honnête]. Je propose un périmètre défini, court ou long. Qu'est-ce qui ralentit le plus vos artistes aujourd'hui ? »
+
+## Tes réponses prêtes (à vérifier avant 14:00)
+
+- **Unity** : as-tu livré du Unity (URP, shaders, particules) ? Oui : cite le projet. Non : dis-le, et dis ce que tu transposes. Ne prétends pas le connaître.
+- **Années** : compte depuis ton premier contrat payé, pas depuis tes études. Donne le chiffre exact. Si c'est moins de cinq, dis-le, puis cite ce qui compense (titres sortis, périmètre).
+- **Meerkat Studio** : ton rôle exact sur Santa Simulator et Bakery Coffee Simulator. Vérifie tes crédits sur Steam avant l'appel. Si ton nom n'y figure pas, dis « j'ai travaillé sur » et décris la mission réelle.
+- **Statut** : ta lettre dit « ma propre structure ». Prépare le nom, le statut juridique et le SIRET. Tes notes Freelance et Business n'en indiquent aucun.
+- **Trois histoires réelles** : une optimisation de framerate, un outil qui a fait gagner des heures, un profilage. Ce sont les questions typiques d'un entretien de technical artist (source tierce, non propre à Lizardcube). Si une histoire manque, dis-le au lieu de l'inventer.
+
+## Ton tarif (corrigé le 30 October 2026)
+
+Le 600 € de la version précédente n'avait pas été calculé à partir du salaire que le studio budgète. Voici la conversion, à vérifier.
+
+**De salaire à TJM.** Règle courante : salaire brut annuel divisé par 218 jours ouvrés, puis multiplié par 1,5 à 2. C'est un ordre de grandeur, pas une mesure. Le statut (micro-entreprise ou société) peut modifier ce résultat de façon notable.
+
+| Brut annuel en CDI | TJM équivalent HT |
+|---|---|
+| 35 000 € | 240 à 320 € |
+| 40 000 € | 275 à 370 € |
+| 45 000 € | 310 à 410 € |
+
+**Repères trouvés le 30 October 2026, résumés par la recherche, à relire**
+
+- CDI technical artist : débutant 30 à 40 k€ brut, confirmé 40 à 55 k€, selon des fiches métier. Île-de-France environ 15 % au-dessus ([playnews.gg](https://www.playnews.gg/actualites/emploi-jeu-video-france-ou-sont-les-postes-en-2026-et-combien-paient-ils)). Ton 35 à 45 k€ tient donc pour un premier poste.
+- Freelance : aucune ligne technical artist trouvée. Graphisme : moyenne 380 € par jour, confirmé digital 380 à 520 €, senior motion ou direction artistique 650 à 850 € ([freelance-solution](https://freelance-solution.fr/tjm-graphiste/)). Développeurs : 450 à 650 € ([freelance-solution](https://www.freelance-solution.fr/?p=2224)), 450 à 520 € selon d'autres sources. Tous secteurs IT : environ 520 € ([Jobbers](https://www.jobbers.io/fr/etude-2025-levolution-des-tjm-freelance-en-france-par-secteur/)). IT en Île-de-France : environ 613 €, régions 15 à 30 % en dessous (RH Solutions 2026, trouvé par recherche, non rouvert).
+- Mes chiffres graphistes précédents (430 à 580, puis 580 à 750) ne correspondent pas à ces résumés. Je les retire, sans avoir rouvert la page.
+
+**Décision proposée**
+
+- Ouverture : 400 € HT par jour, pour un périmètre défini. Cela se place entre la moyenne graphique (380 €) et les développeurs (450 à 520 €). Équivalent : 44 à 58 k€ brut.
+- Plancher : 330 € HT, équivalent 36 à 48 k€ brut, donc ton 35 à 40 k€. C'est toi qui le fixes.
+- Cap de 10 000 € de CA fixé avec Andreas : 25 jours à 400 € HT, 31 jours à 330 € HT.
+- Côté studio : un CDI à 40 k€ brut coûte environ 58 k€ à l'entreprise (charges patronales autour de 45 %, ordre de grandeur). Cela fait environ 320 € par jour travaillé, sur 183 jours (218 jours ouvrés moins congés et fériés). À 400 €, tu es environ 25 % au-dessus ; à 600 €, près du double.
+- Si Unity n'est pas dans ton profil, 400 € reste le haut de la fourchette.
+- Si on te demande un chiffre en premier : « Ça dépend du périmètre et de la durée. Ma base se situe autour de 400 € HT par jour. »
+
+## Pièges
+
+- Un CDI présentiel à Montreuil n'est pas une mission freelance. Clarifie-le dès le début.
+- Ton départ visé pour le Japon (fin janvier ou février 2027, PVT) : dis la durée de disponibilité. Une mission courte peut se combiner avec ce départ, un CDI présentiel non.
+- Unity est l'exigence principale de l'annonce. Ne laisse pas le studio la découvrir à ta place.
+- Le premier échange qualifie. Il ne signe pas.
+
+## Questions à poser
+
+1. « Le poste est en CDI à Montreuil. Êtes-vous ouverts à une prestation freelance, sur quel périmètre et pour quelle durée ? »
+2. « Où en est le prototype du projet en préproduction, et quel travail technique manque aujourd'hui ? »
+3. « Quel chemin prend un dessin pour arriver dans le moteur, et quelle étape ralentit le plus vos artistes ? »
+4. « Y a-t-il un cas pratique, et combien de temps prend-il ? »
+
+## Sources
+
+- [Annonce AFJV](https://emploi.afjv.com/emploi-jeux-video/EINF1939-29164), lue le 29 October 2026
+- [CNC, commission FAJV du 29 June 2026](https://www.cnc.fr/professionnels/aides-et-financements/resultats-commissions/fonds-daide-au-jeu-video-fajv--resultats-de-la-commission-du-29-juin-2026_2629290)
+- [CNC, règles du FAJV](https://www.cnc.fr/professionnels/aides-et-financements/jeu-video/fonds-daide-au-jeu-video-fajv_191468)
+- [Tarifs développeurs 2026](https://www.freelance-solution.fr/?p=2224) et [tarifs graphistes 2026](https://freelance-solution.fr/tjm-graphiste/)
+- [Questions d'entretien technical artist](https://startup.jobs/interview-questions/technical-artist) (source tierce)
+- [Lizardcube, LinkedIn](https://fr.linkedin.com/company/lizardcube)
