@@ -1,23 +1,23 @@
 {
   "title": "ZenRay Calendar Plan",
   "eyebrow": "Organisation des journées",
-  "date": "25 October 2026",
+  "date": "8 November 2026",
   "subtitle": "zenray-calendar-plan",
-  "status": "Version du 25 October 2026, générée depuis SKILL.md",
+  "status": "Version du 8 November 2026, générée depuis SKILL.md",
   "lead": "Skill qui place les tâches d’une journée dans ZenRay Plan et Google Calendar, en blocs de 15 minutes, repas compris, sans deux événements à la même heure. Cet article est généré depuis le skill à chaque consignation.",
   "hero": "hero",
   "heroAlt": "Frise horaire du 24 October 2026 lue dans le Plan.",
   "heroText": "Une journée réelle, relue dans le Plan et dans Google Calendar.",
   "heroCaption": "Rendu par Scripts/MakeHero.mjs depuis CalendarPlan.mjs check.",
   "sources": "Sources.json",
-  "footer": "ZenRay Calendar Plan · 25 October 2026 · SKILL.md e7836da3d9b6",
+  "footer": "ZenRay Calendar Plan · 8 November 2026 · SKILL.md 7028b127e08c",
   "fileLabels": {
     "hero": "Frise horaire du 24 October 2026 lue dans le Plan."
   },
   "fileRoles": {
     "hero": "Image d’ouverture."
   },
-  "skillSha256": "e7836da3d9b6d4512cdd636b926c95977c650ef4c9f8c6b89ec95690c6eb7c21",
+  "skillSha256": "7028b127e08c4a9f0aa0a722fc433d8a6811a157cb9ab6117a37a4eb45032347",
   "sections": [
     {
       "id": "s01",
@@ -66,7 +66,7 @@
       "eyebrow": "07 / Liens avec les autres outils",
       "title": "Liens avec les autres outils (23 October 2026)",
       "nav": "Liens avec les autres outils",
-      "html": "<ul><li>Contexte d'une question (« est-ce que j'ai déjà prévu… », « quand ai-je vu… ») : <code style=\"overflow-wrap:anywhere\">node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Knowledge/knowledge.mjs ask \"&lt;question&gt;\"</code> (skill <code style=\"overflow-wrap:anywhere\">zenray-knowledge</code>). (23 October 2026)</li><li>Tâches ouvertes d'une session : skill <code style=\"overflow-wrap:anywhere\">prompt-stacking</code> ; journal : skill <code style=\"overflow-wrap:anywhere\">progress</code> ; projet Assets <code style=\"overflow-wrap:anywhere\">zenray-calendar-plan-23-october-2026</code> (et l'ancien <code style=\"overflow-wrap:anywhere\">zenray-plan</code> pour l'historique du code du Plan). (23 October 2026)</li><li>Code du Plan sur le site (tuiles, heure en haut à gauche, polices) : dépôt ZenRayProgress, <code style=\"overflow-wrap:anywhere\">src/create/PlanBoard.jsx</code> et <code style=\"overflow-wrap:anywhere\">src/create/planUiConfig.js</code>, skill <code style=\"overflow-wrap:anywhere\">zenray-progress</code>. Historique de ces réglages, du 22 August au 23 October 2026 : <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/Memory1/Projects/zenray-plan/Project1.md</code> et sa copie <code style=\"overflow-wrap:anywhere\">references/zenray-plan-history.md</code>. (23 October 2026)</li></ul>"
+      "html": "<ul><li>Contexte d'une question (« est-ce que j'ai déjà prévu… », « quand ai-je vu… ») : <code style=\"overflow-wrap:anywhere\">node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Knowledge/knowledge.mjs ask \"&lt;question&gt;\"</code> (skill <code style=\"overflow-wrap:anywhere\">zenray-knowledge</code>). (23 October 2026)</li><li>8 November 2026 : la ligne ci-dessus est périmée : ZenRay Knowledge est DEPRECATED (« il n'a jamais marché », mots de Matthieu) ; chercher le contexte directement dans le Plan, Memory et l'agenda. (8 November 2026)</li><li>Tâches ouvertes d'une session : skill <code style=\"overflow-wrap:anywhere\">prompt-stacking</code> ; journal : skill <code style=\"overflow-wrap:anywhere\">progress</code> ; projet Assets <code style=\"overflow-wrap:anywhere\">zenray-calendar-plan-23-october-2026</code> (et l'ancien <code style=\"overflow-wrap:anywhere\">zenray-plan</code> pour l'historique du code du Plan). (23 October 2026)</li><li>Code du Plan sur le site (tuiles, heure en haut à gauche, polices) : dépôt ZenRayProgress, <code style=\"overflow-wrap:anywhere\">src/create/PlanBoard.jsx</code> et <code style=\"overflow-wrap:anywhere\">src/create/planUiConfig.js</code>, skill <code style=\"overflow-wrap:anywhere\">zenray-progress</code>. Historique de ces réglages, du 22 August au 23 October 2026 : <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/Memory1/Projects/zenray-plan/Project1.md</code> et sa copie <code style=\"overflow-wrap:anywhere\">references/zenray-plan-history.md</code>. (23 October 2026)</li></ul>"
     },
     {
       "id": "s08",
@@ -96,5 +96,6 @@
       "nav": "25 October 2026 : la semaine type et la ",
       "html": "<ul><li>Mots de Matthieu (25 October 2026), condensés sans changer le sens : la stratégie construite ces quatre ou cinq dernières années autour du tech artist est validée ; il faut maintenant gagner de l'argent (cap 10 000 € de chiffre d'affaires, coaché par Andreas), tout en continuant le sport et les œuvres culturelles, « et le but, c'est d'être heureux ». (25 October 2026)</li><li>Rythme de la semaine (25 October 2026) : lundi et mardi à fond, mercredi repos, jeudi et vendredi à fond, samedi et dimanche repos. Un jour de repos n'a pas de prospection ; il garde le sport, les repas et une œuvre (jeu, série, film). (25 October 2026)</li><li>Journée à fond type (25 October 2026), posée du 26 au 30 October 2026 : 09:00-10:15 « 10 à 100 mails aux studios » ; 10:25-11:40 chantier du jour ; 12:00-13:00 sport ; 13:10-14:10 déjeuner ; 14:20-15:35 « 3 shorts du jour » ; 15:45-17:00 japonais ; 17:10-18:25 « Publier la suite du travail de tech artist » ; 19:30 dîner. Fiches dans <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/days/</code>. (25 October 2026)</li><li>Prospection (25 October 2026) : 10 à 100 mails aux studios par jour travaillé ; avec le module ZenRay Freelance fini, 100 par jour, soit environ 700 par semaine, ce qui doit apporter des entretiens et une mission. Le volume prime sur la prudence (règle zenray-sales). (25 October 2026)</li><li>Publication (25 October 2026) : 3 shorts par jour travaillé (supposé : pas les jours de repos tant que Matthieu ne dit pas autre chose) et une publication de la suite de son travail de tech artist, environ une par jour. (25 October 2026)</li><li>Les œuvres culturelles sont au Plan comme le reste (25 October 2026) : dimanche 25 October 2026, Trails in the Sky, Lupin the Third partie 2, un film japonais, à côté de la fin du module ZenRay Freelance. Les choisir reste à Matthieu, jamais une recommandation de l'agent. (25 October 2026)</li><li>Une proposition de journée attend sa validation quand Matthieu le demande (<code style=\"overflow-wrap:anywhere\">/wait-validation</code>) : demande notée dans FEEDBACK.md, plan montré, rien d'écrit avant son « validé ». Une journée posée en retard sur l'heure réelle se décale à partir de l'heure courante en gardant l'ordre validé (dimanche 25 October 2026, proposé à 10:00, posé à 12:05). (25 October 2026)</li></ul><ul><li>Piège payé (25 October 2026) : après la pose de la semaine, Google Calendar n'affichait rien de neuf ; le démon <code style=\"overflow-wrap:anywhere\">com.zenray.plan-gcal-sync</code> refusait chaque minute (« 46 Google writes needed, limit 25 per run », journal <code style=\"overflow-wrap:anywhere\">/Users/zenray/Library/Logs/zenray-plan-gcal.log</code>). Correctif : <code style=\"overflow-wrap:anywhere\">fit --apply</code> lance maintenant lui-même <code style=\"overflow-wrap:anywhere\">/Users/zenray/.claude/skills/zenray-plan-publish/scripts/PlanGcalSync.mjs --apply</code> (paramètre <code style=\"overflow-wrap:anywhere\">DAY.gcalSync</code>) et affiche « Google Calendar: Calendar operations applied: N/N » ; la semaine a été rattrapée par 49 écritures sur 49. (25 October 2026)</li></ul>"
     }
-  ]
+  ],
+  "theme": "galerie"
 }
