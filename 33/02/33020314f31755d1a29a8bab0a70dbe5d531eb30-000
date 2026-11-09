@@ -1,23 +1,23 @@
 {
   "title": "ZenRay Calendar Plan",
   "eyebrow": "Organisation des journées",
-  "date": "8 November 2026",
+  "date": "9 November 2026",
   "subtitle": "zenray-calendar-plan",
-  "status": "Version du 8 November 2026, générée depuis SKILL.md",
+  "status": "Version du 9 November 2026, générée depuis SKILL.md",
   "lead": "Skill qui place les tâches d’une journée dans ZenRay Plan et Google Calendar, en blocs de 15 minutes, repas compris, sans deux événements à la même heure. Cet article est généré depuis le skill à chaque consignation.",
   "hero": "hero",
   "heroAlt": "Frise horaire du 24 October 2026 lue dans le Plan.",
   "heroText": "Une journée réelle, relue dans le Plan et dans Google Calendar.",
   "heroCaption": "Rendu par Scripts/MakeHero.mjs depuis CalendarPlan.mjs check.",
   "sources": "Sources.json",
-  "footer": "ZenRay Calendar Plan · 8 November 2026 · SKILL.md 7028b127e08c",
+  "footer": "ZenRay Calendar Plan · 9 November 2026 · SKILL.md 6356c901020d",
   "fileLabels": {
     "hero": "Frise horaire du 24 October 2026 lue dans le Plan."
   },
   "fileRoles": {
     "hero": "Image d’ouverture."
   },
-  "skillSha256": "7028b127e08c4a9f0aa0a722fc433d8a6811a157cb9ab6117a37a4eb45032347",
+  "skillSha256": "6356c901020d96ff0af1a0d75cf9e3093588dc66a26e8b8c5bcaebdd1891707b",
   "sections": [
     {
       "id": "s01",
@@ -59,7 +59,7 @@
       "eyebrow": "06 / L'ordre de priorité d'une journée",
       "title": "L'ordre de priorité d'une journée (23 October 2026)",
       "nav": "L'ordre de priorité d'une journée",
-      "html": "<ul><li>Cap octobre et novembre 2026, fixé avec Andreas (ami et coach) le 23 October 2026 : environ 10 000 € de chiffre d'affaires ; moins de développement, plus de prospection et de vente ; dès qu'une mission est signée, recontacter Andreas. Règles de vente et calculs : skill <code style=\"overflow-wrap:anywhere\">zenray-sales</code> (Sales1.md). (23 October 2026)</li><li>Ordre de placement (23 October 2026) : rendez-vous fixes d'abord ; puis la prospection le matin, 10 studios par jour au minimum (série « 10 mails par jour aux studios », 09:00-10:30 du 24 au 30 October 2026, règle « calendrier d'abord, 9 h à 10 h 30 prospection avant tout développement » de <code style=\"overflow-wrap:anywhere\">zenray-sales</code>) ; le japonais l'après-midi ; le sport à 17:00 ; le développement seulement dans ce qui reste. (23 October 2026)</li><li>La tâche de publication du jour se pose par le skill <code style=\"overflow-wrap:anywhere\">zenray-plan-publish</code>, qui garde aussi le code de la synchronisation Google (<code style=\"overflow-wrap:anywhere\">PlanGcalSync.mjs</code>, <code style=\"overflow-wrap:anywhere\">GcalAuth.mjs</code>). (23 October 2026)</li></ul>"
+      "html": "<ul><li>Cap octobre et novembre 2026, fixé avec Andreas (ami et coach) le 23 October 2026 : environ 10 000 € de chiffre d'affaires ; moins de développement, plus de prospection et de vente ; dès qu'une mission est signée, recontacter Andreas. Règles de vente et calculs : skill <code style=\"overflow-wrap:anywhere\">zenray-sales</code> (ZenRayKnight1.md). (23 October 2026)</li><li>Ordre de placement (23 October 2026) : rendez-vous fixes d'abord ; puis la prospection le matin, 10 studios par jour au minimum (série « 10 mails par jour aux studios », 09:00-10:30 du 24 au 30 October 2026, règle « calendrier d'abord, 9 h à 10 h 30 prospection avant tout développement » de <code style=\"overflow-wrap:anywhere\">zenray-sales</code>) ; le japonais l'après-midi ; le sport à 17:00 ; le développement seulement dans ce qui reste. (23 October 2026)</li><li>La tâche de publication du jour se pose par le skill <code style=\"overflow-wrap:anywhere\">zenray-plan-publish</code>, qui garde aussi le code de la synchronisation Google (<code style=\"overflow-wrap:anywhere\">PlanGcalSync.mjs</code>, <code style=\"overflow-wrap:anywhere\">GcalAuth.mjs</code>). (23 October 2026)</li></ul>"
     },
     {
       "id": "s07",
